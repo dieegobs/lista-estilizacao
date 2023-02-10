@@ -6,10 +6,15 @@ const Container = styled.div`
 
 `;
 
+const Botao = styled.button`
+    font-size:40px;
+`;
+
 const App = () => {
     return (
         <Container >
            Texto do component
+           <Botao>Clique Aqui</Botao>  
         </Container>
     )
 }

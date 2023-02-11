@@ -11,6 +11,9 @@ export const Container = styled.div`
         color: #000;
     }
 
+    .link {
+        color: #FFF;
+    }
 `;
 
 export const Botao = styled.button`

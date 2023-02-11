@@ -1,14 +1,6 @@
-import styled from 'styled-components';
+import {Container, Botao} from './AppStyles';
 
-const Container = styled.div`
-    background-color: blue;
-    color: white;
 
-`;
-
-const Botao = styled.button`
-    font-size:40px;
-`;
 
 const App = () => {
     return (

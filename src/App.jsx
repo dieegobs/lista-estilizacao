@@ -1,13 +1,14 @@
 import {Container, Botao} from './AppStyles';
+import * as C from './AppStyles';
 
 
 
 const App = () => {
     return (
-        <Container >
+        <C.Container >
            Texto do component
-           <Botao>Clique Aqui</Botao>  
-        </Container>
+           <C.Botao>Clique Aqui</C.Botao>  
+        </C.Container>
     )
 }
 

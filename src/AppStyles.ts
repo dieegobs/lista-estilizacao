@@ -5,6 +5,12 @@ export const Container = styled.div`
     color: white;
     padding: 20px;
 
+
+    span {
+        font-weight: bold;
+        color: #000;
+    }
+
 `;
 
 export const Botao = styled.button`

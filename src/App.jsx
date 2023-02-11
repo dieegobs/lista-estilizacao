@@ -6,7 +6,9 @@ import * as C from './AppStyles';
 const App = () => {
     return (
         <C.Container >
-           Texto do component
+           <span>Texto do component</span> 
+
+           
            <C.Botao bg="#FF0000">Botão Grande</C.Botao>  
            <C.Botao bg="#00FF00" small>Botão Pequeno</C.Botao>  
         </C.Container>

@@ -8,5 +8,6 @@ export const Container = styled.div`
 `;
 
 export const Botao = styled.button`
-    font-size:40px;
+    font-size: ${props=> props.small ? '15px' : '30px'  };
+    background-color: ${props => props.bg};
 `;
